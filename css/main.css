@@ -197,7 +197,7 @@ address {
 
 .features {
   padding-top: 94px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 
 .features-item {
@@ -231,8 +231,7 @@ address {
 /* ===== START ABOUT ===== */
 
 .about {
-  padding-top: 47px;
-  padding-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .about-name {
