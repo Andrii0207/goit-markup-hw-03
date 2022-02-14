@@ -5,6 +5,7 @@
   --secondary-font-color: #757575;
   --white-font-color: #FFFFFF;
   --accent-color: #188CE8;
+  --shadow-btn-color: #F5F4FA;
 }
 
 body {
@@ -268,8 +269,11 @@ address {
 
 .portfolio-button {
   margin-right: 8px;
+  min-width: 145px;
+  padding: 6px 15px;
+
   font-family: inherit;
-  font-style: normal;
+  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -278,7 +282,8 @@ address {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  background-color: var(--background-color-portfolio);
+
+  background-color: var(--shadow-btn-color);
   color: var(--primary-font-color);
 }
 
@@ -365,10 +370,27 @@ address {
   color: var(--white-font-color);
 }
 
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
 .footer-address {
+  padding-bottom: 60px;
+}
+
+.footer-link {
+  padding-bottom: 9px;
+}
+
+.footer-contact {
+  padding-bottom: 9px;
+}
+
+.footer-link {
   font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -377,8 +399,8 @@ address {
 
 .footer-contact {
   font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

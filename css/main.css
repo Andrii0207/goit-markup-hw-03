@@ -321,6 +321,8 @@ address {
 
 .footer {
   background-color: #2f303a;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
 }
 
 .web {
@@ -340,7 +342,20 @@ address {
   color: var(--white-font-color);
 }
 
+.footer-wrapper {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
 .footer-address {
+  padding-bottom: 60px;
+}
+
+.footer-link {
+  padding-bottom: 9px;
+}
+
+.footer-link {
   font-family: inherit;
   font-style: normal;
   font-weight: normal;
