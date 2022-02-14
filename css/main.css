@@ -49,6 +49,7 @@ address {
 
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {

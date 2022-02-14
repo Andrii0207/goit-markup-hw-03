@@ -50,6 +50,7 @@ address {
 
 .header {
   background-color: #ffffff;
+  /* border-bottom: 1px solid #ECECEC; */
 }
 
 .header-container {
@@ -139,14 +140,13 @@ address {
 
 .header {
   background-color: #ffffff;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .header-container {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-bottom: 14px;
 }
 
 .nav-list {
@@ -260,6 +260,11 @@ address {
 
 
 /* ===== START PORTFOLIO ===== */
+
+.portfolio {
+  padding-top: 94px;
+  border-top: 1px solid #ECECEC
+}
 
 .portfolio-list-btn {
   display: flex;
