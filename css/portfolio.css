@@ -300,7 +300,7 @@ address {
   color: var(--white-font-color);
 }
 
-.portfolio-list .current {
+.portfolio-list-btn .current {
   background-color: var(--accent-color);
   color: var(--white-font-color);
 }
