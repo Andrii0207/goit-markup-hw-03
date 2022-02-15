@@ -172,6 +172,7 @@ address {
 
 .link.current {
   color: var(--accent-color);
+  
 }
 
 .web {
