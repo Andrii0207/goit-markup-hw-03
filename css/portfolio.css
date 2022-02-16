@@ -46,6 +46,10 @@ address {
   padding: 0 15px;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 /* ===== START HEADER ===== */
 
 .header {
@@ -140,7 +144,6 @@ address {
 
 .header {
   background-color: #ffffff;
-  /* padding-bottom: 94px; */
 }
 
 .header-container {
@@ -263,14 +266,14 @@ address {
 /* ===== START PORTFOLIO ===== */
 
 .portfolio {
-  padding-top: 94px;
+  
   border-top: 1px solid #ECECEC
 }
 
 .portfolio-list-btn {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .portfolio-button {
@@ -313,7 +316,6 @@ address {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding-bottom: 94px;
 }
 
 .portfolio-item {
@@ -325,13 +327,15 @@ address {
 .portfolio-subsribe {
   background: var(--white-font-color);
   border: 1px solid #EEEEEE;
-  box-sizing: border-box;
+  padding: 20px 24px;
+  /* box-sizing: border-box; */
+
+  justify-content: flex-start;
 }
 
 .portfolio-subsribe-item {
-  padding-top: 20px;
   padding-bottom: 4px;
-  padding-left: 24px;
+
   font-family: var(--secondary-font-family)
   font-style: 400;
   font-weight: 700;
@@ -342,13 +346,11 @@ address {
 }
 
 .portfolio-type-list {
-  padding-bottom: 20px;
-  padding-left: 24px;
   font-family: var(--secondary-font-family)
   font-style: 400;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
 }
