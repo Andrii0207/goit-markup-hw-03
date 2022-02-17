@@ -101,6 +101,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .studio-logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
@@ -338,15 +339,11 @@ address {
 /* ===== START FOOTER ===== */
 
 .footer {
-  background-color: var(--hero-bg-color);
   padding: 60px 0;
+  background-color: var(--hero-bg-color);
 }
 
 .footer-logo {
-  margin-bottom: 24px;
-}
-
-.web {
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -354,35 +351,32 @@ address {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .studio {
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--white-font-color);
 }
 
-.footer-item {
-  margin-bottom: 9px;
+.footer-link {
   font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
+  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--white-font-color);
-}
 
-.footer-contact {
-  margin-bottom: 9px;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* ===== END FOOTER ===== */
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-address {
+  margin-top: 20px;
+}
+
+.address {
+  color: var(--white-font-color);
+}
+
+/* ===== END FOOTER ===== */ ;

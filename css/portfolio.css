@@ -6,6 +6,7 @@
   --white-font-color: #FFFFFF;
   --accent-color: #188CE8;
   --shadow-btn-color: #F5F4FA;
+  --bg-dark-color: #2f303a;
 }
 
 body {
@@ -266,7 +267,6 @@ address {
 /* ===== START PORTFOLIO ===== */
 
 .portfolio {
-  
   border-top: 1px solid #ECECEC
 }
 
@@ -360,10 +360,11 @@ address {
 /* ===== START FOOTER ===== */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bg-dark-color);
+  padding: 60px 0;
 }
 
-.web {
+.footer-logo {
   font-family: var(--secondary-font-family);
   font-weight: 700;
   font-size: 26px;
@@ -371,49 +372,32 @@ address {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .studio {
-  font-family: var(--secondary-font-family);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--white-font-color);
 }
 
-.footer-wrapper {
-  padding-top: 60px;
-  padding-bottom: 20px;
+.footer-link {
+  font-family: inherit;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address {
-  padding-bottom: 60px;
+  margin-top: 20px;
 }
 
-.footer-link {
-  padding-bottom: 9px;
-}
-
-.footer-contact {
-  padding-bottom: 9px;
-}
-
-.footer-link {
-  font-family: inherit;
-  font-style: 400;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.address {
   color: var(--white-font-color);
 }
-
-.footer-contact {
-  font-family: inherit;
-  font-style: 400;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 
   /* ===== END FOOTER ===== */
