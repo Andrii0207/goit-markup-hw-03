@@ -54,8 +54,7 @@ address {
 /* ===== START HEADER ===== */
 
 .header {
-  background-color: #ffffff;
-  /* border-bottom: 1px solid #ECECEC; */
+  background-color: var(--white-font-color);
 }
 
 .header-container {
@@ -144,7 +143,7 @@ address {
 /* ===== START HEADER ===== */
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--white-font-color);
 }
 
 .header-container {
@@ -278,11 +277,10 @@ address {
 
 .portfolio-button {
   margin-right: 8px;
-  min-width: 145px;
   padding: 6px 15px;
 
   font-family: inherit;
-  font-style: 400;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -328,8 +326,7 @@ address {
   background: var(--white-font-color);
   border: 1px solid #EEEEEE;
   padding: 20px 24px;
-  /* box-sizing: border-box; */
-
+ 
   justify-content: flex-start;
 }
 
@@ -337,7 +334,7 @@ address {
   padding-bottom: 4px;
 
   font-family: var(--secondary-font-family)
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -347,7 +344,7 @@ address {
 
 .portfolio-type-list {
   font-family: var(--secondary-font-family)
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -379,8 +376,8 @@ address {
 
 .footer-link {
   font-family: inherit;
-  font-style: 400;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
